@@ -1,0 +1,83 @@
+/* TRANSFORMATIONS */
+
+
+
+
+/* BASE STYLES
+------------------------------------- */
+body {
+    margin: 0;
+    padding: 0.5em;
+    background-color: rgb(52, 189, 52);
+    color: black;
+    font-family: sans-serif;
+}
+
+img {
+    max-width: 100%; 
+    
+}
+
+
+
+
+
+/* NAVIGATION
+------------------------------------- */
+nav {
+    background: lightgray;
+    position: fixed;
+    width: 150vw;
+    height:auto;
+
+
+}
+
+nav a {
+
+}
+
+nav a:hover {
+
+}
+
+
+
+
+/* HOME PAGE
+------------------------------------- */
+main {
+    background-image:url(images/leaf-closeup.jpg); 
+    background-size :cover;
+    background-position: center;
+    background-repeat: repeat-x;
+}
+
+.leaf-1 {
+    opacity :0.5;
+    transform: rotate(80deg)
+
+}
+
+
+
+/* GALLERY PAGE
+------------------------------------- */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0.5em;
+    max-width: 50em;
+    margin: 5em auto;
+}
+
+.gallery-item {
+    padding: 0.5em;
+    border: 1px solid black;
+    display: grid;
+    align-items: end;
+    background: white;
+}
+
+
+
